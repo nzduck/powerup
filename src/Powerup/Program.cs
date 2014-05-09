@@ -22,7 +22,7 @@ namespace Powerup
                 optionSet.Parse(args);
                 if(!conn.IsValid)
                 {
-                    throw new OptionException("missing parameters","");
+                    throw new OptionException("Missing parameters","");
                 }
 
                 app.BuildEntities();
